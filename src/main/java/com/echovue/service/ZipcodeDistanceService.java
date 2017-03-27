@@ -16,7 +16,6 @@ public class ZipcodeDistanceService {
     private URL zipcodeapi;
     private String apiKey = "P6wa1NepBwp5wssOz9sXj7rfL3sPOvGDBdOC022CyrH5U9UtjmrDuSSfWl4KQLos";
 
-
     public Optional<Double> getDistance(final String zipCode1,
                                         final String zipCode2) {
         try {

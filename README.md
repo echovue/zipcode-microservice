@@ -3,7 +3,7 @@ A Spring based microservice which determines the distance for a specific zip cod
 
 To build the project, download it into a local directory.
  
-You will need to update the apiKey variable in ZipcodeDistanceService with your own from
+You will need to update the apiKey property in ZipcodeDistanceService with your own from
 https://www.zipcodeapi.com/API
 
 To run the program, execute the following from the commandline:
@@ -12,7 +12,7 @@ To run the program, execute the following from the commandline:
 
 An example request which you can submit is:
 
-`http://localhost:8080/distance?zipCode1=97035&zipCode2=97001`
+`http://localhost:8080/distance/97035/97001`
 
 And the response should be:
 
